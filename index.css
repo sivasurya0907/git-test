@@ -42,9 +42,10 @@
   color: #d2caca;
   justify-content: center;
   text-align: center;
-  margin-left: 220px;
+  margin-left: 240px;
   width: 180px;
   height: 250px;
+  z-index: 0;
 }
 .but {
   border-radius: 40px;
@@ -71,7 +72,7 @@
 .sum-box {
   background-color: #ffffff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-  
+  z-index: -1;
   padding: 10px;
   font-size: 12px;
   border-radius: 10px;
